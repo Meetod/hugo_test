@@ -1,0 +1,4 @@
+baseURL = "http://hugo-test.meetod.com/"
+languageCode = "en-us"
+title = "Hugo test"
+theme = "ananke"
