@@ -2,3 +2,23 @@ baseURL = "http://hugo-test.meetod.com/"
 languageCode = "en-us"
 title = "Hugo test"
 theme = "ananke"
+
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    title = "Boards on Fire"
+    weight = 1
+    [languages.en.params]
+      linkedin = "https://www.linkedin.com/company/30697297"
+  [languages.sv]
+    title = "Boards on Fire"
+    weight = 2
+    [languages.sv.params]
+      linkedin = "https://www.linkedin.com/company/30697297"
+      [languages.sv.params.navigation]
+        help = "Hjälp"
+
+[params]
+  [params.navigation]
+    help = "Help"
