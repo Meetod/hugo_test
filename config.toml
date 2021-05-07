@@ -4,6 +4,7 @@ title = "Hugo test"
 theme = "ananke"
 
 defaultContentLanguage = "en"
+sectionPagesMenu = "main"
 
 [languages]
   [languages.en]
